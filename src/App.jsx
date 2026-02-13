@@ -23,6 +23,10 @@ export default function App() {
       });
   };
 
+      // useEffect per chiamare la funzione al caricamento
+           useEffect(fetchCharacters, []);
+
+
   return (
     <>
 
