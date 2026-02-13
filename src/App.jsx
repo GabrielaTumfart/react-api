@@ -6,7 +6,7 @@ import './App.css'
 export default function App() {
 
   // BASE URL
-  const baseUrl = "https://lanciweb.github.io/demo/api/actors/";
+  const baseUrl = "https://lanciweb.github.io/demo/api/actresses/";
   const [characters, setCharacters] = useState([]);
 
   return (
