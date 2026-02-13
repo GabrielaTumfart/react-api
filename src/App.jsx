@@ -12,8 +12,21 @@ export default function App() {
   const baseUrl = "https://lanciweb.github.io/demo/api/actresses/";
   const [characters, setCharacters] = useState([]);
 
+  const fetchCharacters = () => {
+    axios.get(baseUrl)
+      .then(response => {
+        console.log("Dati ricevuti:", response.data); // MILESTONE 1
+        setCharacters(response.data);
+      })
+      .catch(error => {
+        console.error("Errore nel fetch:", error);
+      });
+  };
+
   return (
     <>
+
+    <h1>Cast Fetching</h1>
       
           
     </>
