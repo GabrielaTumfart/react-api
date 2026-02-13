@@ -28,13 +28,21 @@ export default function App() {
 
 
   return (
-    <>
+    <div>
 
     <h1>Cast Fetching</h1>
     <h2>Ho finito il Milestone 1</h2>
       
+      {characters.map((char, index) => (
+        <div key={index}></div>
+  
+        ))}
+
+
+    
+      
           
-    </>
+    </div>
   )
 }
 
