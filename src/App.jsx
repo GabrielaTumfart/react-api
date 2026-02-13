@@ -27,6 +27,7 @@ export default function App() {
     <>
 
     <h1>Cast Fetching</h1>
+    <h2>Ho finito il Milestone 1</h2>
       
           
     </>
